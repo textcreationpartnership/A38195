@@ -1,0 +1,544 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An account of some transactions in the honourable House of Commons, and before the right honourable Lords of the King's most honourable Privy Council, relating to the late East=India Company together with the said companies new charter.</title>
+            <author>England and Wales. Parliament.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1693</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 72 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38195</idno>
+            <idno type="STC">Wing E2503</idno>
+            <idno type="STC">ESTC R32900</idno>
+            <idno type="EEBO-CITATION">12778212</idno>
+            <idno type="OCLC">ocm 12778212</idno>
+            <idno type="VID">93789</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A38195)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 93789)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1034:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An account of some transactions in the honourable House of Commons, and before the right honourable Lords of the King's most honourable Privy Council, relating to the late East=India Company together with the said companies new charter.</title>
+                  <author>England and Wales. Parliament.</author>
+               </titleStmt>
+               <extent>[2], 25 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCXCIII [1693]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>East India Company.</term>
+               <term>Great Britain --  History --  William and Mary, 1689-1702.</term>
+               <term>Great Britain --  Commerce --  India.</term>
+               <term>India --  Commerce --  Great Britain.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-11</date>
+            <label>Enrique Valdive</label>Sampled and proofread</change>
+         <change>
+            <date>2013-11</date>
+            <label>Enrique Valdive</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:93789:1"/>
+            <pb facs="tcp:93789:1"/>
+            <p>AN ACCOUNT OF SOME TRANSACTIONS IN THE Honourable <hi>Houſe of Commons,</hi> AND BEFORE The Right Honourable <hi>Lords of the King's Most Honourable Privy Council;</hi> RELATING TO <hi>The Late Eaſt-India Company:</hi> Together with the ſaid <hi>Companies</hi> NEVV CHARTER.</p>
+            <p>
+               <hi>LONDON:</hi> Printed in the Year MDCXCIII.</p>
+         </div>
+      </front>
+      <body>
+         <div type="account">
+            <pb facs="tcp:93789:2"/>
+            <pb n="1" facs="tcp:93789:2"/>
+            <head>AN ACCOUNT Of ſome TRANSACTIONS in the Honourable <hi>Houſe of Commons,</hi> and before the Right Honourable <hi>Lords of the Committee of the Kings moſt Honourable Privy Council,</hi> relating to The Late <hi>Eaſt-India Company.</hi>
+            </head>
+            <div type="entry">
+               <head type="sub">
+                  <hi>Sabbati,</hi> 
+                  <date>6. <hi>die Februarii.</hi> 1691.</date>
+               </head>
+               <p>
+                  <hi>Reſolved,</hi>
+               </p>
+               <p>THat an Humble Addreſs be made to His Majeſty, to Diſſolve the preſent <hi>Eaſt-India</hi> Company, according to His Power reſerved in their Charter, and to Conſtitute another <hi>Eaſt-India</hi> Company, for the better preſerving the <hi>East-India</hi> Trade to this Kingdom, in ſuch manner as His Majeſty in His Royal Wiſdom ſhall think fit.</p>
+               <p>
+                  <hi>Reſolved,</hi> That the ſaid Addreſs be preſented by the whole Houſe.</p>
+            </div>
+            <pb n="2" facs="tcp:93789:3"/>
+            <div type="entry">
+               <head type="sub">
+                  <hi>Jovis,</hi> 
+                  <date>11. <hi>die Februarii.</hi> 1691.</date>
+               </head>
+               <p>Mr. <hi>Speaker</hi> Reported to the Houſe, That he did yeſterday Pre<g ref="char:EOLhyphen"/>ſent to His Majeſty their Humble Addreſs touching the <hi>Eaſt-India</hi> Company, and that His Majeſty was pleaſed to Expreſs himſelf to this Effect:</p>
+               <p>
+                  <hi>That it was a matter of very great Importance to the Trade of this Kingdom, and that it could not be expected that he ſhould give a preſent Anſwer to it, but that He would take time to conſider of it, and in a ſhort time give them His Poſitive An<g ref="char:EOLhyphen"/>ſwer.</hi>
+               </p>
+               <p>Upon which ſome Time after, the Company having firſt agreed to ſubmit to ſuch Regulations as ſhould be made, and Declared their Submiſſion in Writing, The Right Honourable the Lords of the Com<g ref="char:EOLhyphen"/>mittee of His Majeſties moſt Honourable Privy Council, to whom that matter was Referred, agreed on theſe following Propoſitions which were ſent to the Company, <hi>(Viz.)</hi>
+               </p>
+               <div type="propositions">
+                  <head>PROPOSITIONS For Regulating the <hi>East-India</hi> Company, from the Right Honourable the Earl of <hi>Nottingham,</hi> their Majeſties Principal Secretary of State.</head>
+                  <list>
+                     <item>
+                        <hi>I. Propoſition.</hi> THE <hi>Fund</hi> to be made up <hi>1500000</hi> at leaſt, and not to Exceed <hi>Two Millions.</hi>
+                     </item>
+                     <item>
+                        <hi>II. Prop.</hi> The <hi>Stock</hi> of the preſent <hi>Company</hi> to be part of this <hi>Fund,</hi> and to be rated at <hi>744000</hi> l. if they can give Security, that it ſhall effectually produce that Sum, or elſe at ſo much leſs, as they will engage to make good, after all Debts paid, and Satisfaction made to the <hi>Mogull</hi> and his Subjects, against whoſe Pretentions, the <hi>New Stock</hi> to be indemnified by like Security.</item>
+                     <item>
+                        <hi>III. Prop.</hi> That the ſaid <hi>Stock</hi> of the preſent <hi>Company</hi> ſhall be brought home any time within <gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap> Years, in the Ships abroad, or thoſe to be ſent on Account of the <hi>New Stock,</hi> paying the ſame Freight, and diſpoſed of at <hi>Publick Sales,</hi> by the Members of the preſent <hi>Com<g ref="char:EOLhyphen"/>pany,</hi>
+                        <pb n="3" facs="tcp:93789:3"/>and the nett proceed thereof to be taken as part of the <hi>744000</hi> l. as ſhall alſo the Value of their Forts, <hi>&amp;c.</hi> to be eſtimated by indiffe<g ref="char:EOLhyphen"/>rent perſons, and put into the hands of the <hi>Charter Company,</hi> but after<gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap>day no Goods to be Exported to the <hi>Eaſt-Indies,</hi> on Account of the <hi>Old Stock.</hi>
+                     </item>
+                     <item>
+                        <hi>IV. Prop.</hi> That whatever the <hi>quick and dead Stock</hi> ſhall thus pro<g ref="char:EOLhyphen"/>duce more than <hi>744000</hi> l. ſhall be divided wholly between the Members of the preſent Company proportionably to their reſpective Stocks.</item>
+                     <item>
+                        <hi>V. Prop.</hi> Books to be provided for <hi>New Subſcriptions</hi> within and then the Books to be cloſed.</item>
+                     <item>
+                        <hi>VI. Prop.</hi> If the Subſcriptions exceed <hi>two Millions,</hi> each Subſcri<g ref="char:EOLhyphen"/>ber to be Reduced proportionably, till the whole make but <hi>Two Mil<g ref="char:EOLhyphen"/>lions.</hi>
+                     </item>
+                     <item>
+                        <hi>VII. Prop.</hi> That every Subſcriber pay in his Money upon pain —</item>
+                     <item>
+                        <hi>VIII. Prop.</hi> No one perſon to have above <hi>10000</hi> l. in this <hi>Stock</hi> in his own or others Name, in Trust for him, and every Subſcriber ſhall make Oath accordingly, and that it is his own Money.</item>
+                     <item>
+                        <hi>IX. Prop.</hi> That every Member of the preſent Company, who hath above <hi>10000</hi> l. <hi>Stock,</hi> ſhall Sell forthwith the over-plus, at the Rate of <hi>100</hi> l. for <hi>100</hi> l. but ſo, that if the whole nett proceed of the pre<g ref="char:EOLhyphen"/>ſent <hi>Stock</hi> exceed <hi>744000</hi> l. this overplus ſhall go to the perſon that hath ſold his overplus <hi>Stock,</hi> proportionably to the Share he had before ſuch Sale.</item>
+                     <item>
+                        <hi>X. Prop.</hi> No perſon to have a Vote that hath in his own Right, and not in Truſt, leſs than <hi>500</hi> l. <hi>Stock,</hi> nor more than One Vote, unleſs he hath <hi>4000</hi> l. and then <hi>2</hi> Votes, and if <hi>6000</hi> l. <hi>3</hi> Votes, <hi>8000</hi> l. <hi>4</hi> Votes, and <hi>10000</hi> l. <hi>5</hi> Votes.</item>
+                     <item>
+                        <hi>XI. Prop.</hi> All Members of the preſent Company, and new Subſcri<g ref="char:EOLhyphen"/>bers to be Incorporated by the name of</item>
+                     <item>
+                        <hi>XII. Prop.</hi> All who have, or Subſcribe <hi>500</hi> l. Stock, to meet and chooſe a <hi>Governour, Deputy</hi> and <hi>24 Committees</hi> to manage the Trade, none to be <hi>Governour,</hi> or <hi>Deputy,</hi> who hath, or hath Subſcribed leſs than <hi>2000</hi> l. <hi>Stock,</hi> nor Committee<gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap>
+                        <hi>1000</hi> l. Stock.</item>
+                     <item>
+                        <hi>XIII. Prop.</hi> The <hi>Governour, Deputy, and Committees</hi> to be cho<g ref="char:EOLhyphen"/>ſen every year, and if any Die within the year, others to be choſen by a general Court.</item>
+                     <item>
+                        <hi>XIV. Prop.</hi> The <hi>Governour, Deputy, and Committees</hi> to take the Oath of Fidelity, <hi>&amp;c.</hi> and alſo an Oath for the faithful Diſcharge of their Truſt.</item>
+                     <item>
+                        <hi>XV. Prop.</hi> That every one purchaſing any <hi>Stock</hi> ſhall take his Free<g ref="char:EOLhyphen"/>dom, and before his admittance pay<gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap>for a Fine, and take the Oaths appointed.</item>
+                     <item>
+                        <hi>XVI. Prop.</hi> That all free of the former Company, or capable to be
+<pb n="4" facs="tcp:93789:4"/>ſo, and all Subſcribing to the preſent Stock, ſhall be admitted <hi>gratis.</hi>
+                     </item>
+                     <item>
+                        <hi>XVII. Prop.</hi> That the Company hereby establiſhed, may make By-Laws for their better Government, That no By-Laws ſhall be binding to the Company but ſuch as are approved by a General Court of Adven<g ref="char:EOLhyphen"/>turers, and are not repugnant to the Laws of the Land.</item>
+                     <item>
+                        <hi>XVIII. Prop.</hi> That every general Court and Committee be called by the Governor, or Deputy, at all which the Governour or Deputy ſhall be preſent, and in caſe of equality of Voices ſhall have a Casting Voice.</item>
+                     <item>
+                        <hi>XIX. Prop.</hi> That the Company ſhall enjoy the ſole Trade to the <hi>Eaſt-Indies,</hi> in the ſeveral Countreys lying and being between the <hi>Cape de Bona Eſperanza,</hi> and the <hi>Streights of Magellan.</hi>
+                     </item>
+                     <item>
+                        <hi>XX. Prop.</hi> That it ſhall not be Lawful for any, ſave the ſaid Com<g ref="char:EOLhyphen"/>pany only, directly or indirectly to Trade within the Limits granted to the ſaid Company, on pain of Forfeiting</item>
+                     <item>
+                        <hi>XXI. Prop.</hi> That no Licence or Permiſſion ſhall be granted to any Perſons or Ships to Trade to the <hi>Eaſt-Indies</hi> on any private Account, and that all ſuch Permiſſions ſhall be void.</item>
+                     <item>
+                        <hi>XXII. Prop.</hi> That there ſhall be no private Contract, for the Sale of any Goods, but they ſhall be all Sold in Publick by Inch of Candle for the Companies Account.</item>
+                     <item>
+                        <hi>XXIII. Prop.</hi> That no Lot of any Goods to be Sold, ſhall exceed the value of <hi>500</hi> l.</item>
+                     <item>
+                        <hi>XXIV. Prop.</hi> Every year the Company ſhall deliver to their Majeſties uſe <hi>500</hi> Tuns of Salt-Peter, at<gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap>
+                        <hi>per Tun</hi> if required, the refraction not exceeding</item>
+                     <item>
+                        <hi>XXV. Prop.</hi> That the Company ſhall yearly export to the <hi>Eaſt-Indies,</hi> not leſs than the value of <hi>100000</hi> l. in Goods, of the Product and Manufactures of <hi>England.</hi>
+                     </item>
+                     <item>
+                        <hi>XXVI. Prop.</hi> That all Dividends be made in Money.</item>
+                     <item>
+                        <hi>XXVII. Prop.</hi> That no Dividend be made without leaving the Origi<g ref="char:EOLhyphen"/>nal Fund, or at leaſt <hi>1500000</hi> l. beſides what is neceſſary to pay their Debts.</item>
+                     <item>
+                        <hi>XXVIII. Prop.</hi> That the ſaid Companies Accomptant keep a Book to enter the Value of the <hi>Stock</hi> upon Oath, to lie Open for the peruſal of all perſons concerned.</item>
+                     <item>
+                        <hi>XXIX. Prop.</hi> That all Transferrs of <hi>Stock</hi> ſhall be Registred and Entred in a Book, to lie open to all perſons concerned.</item>
+                     <item>
+                        <hi>XXX. Prop.</hi> That the ſaid Joint-Stock ſhall continue for <hi>21</hi> years and no longer.</item>
+                     <item>
+                        <hi>XXXI. Prop.</hi> That a Book of new Subſcriptions be laid open for a ſucceeding new General Joint-Stock before the expiration of the ſaid <hi>21</hi> years appointed for this Stock.</item>
+                     <pb facs="tcp:93789:4"/>
+                     <item>
+                        <hi>XXXII. Prop.</hi> That the Company be obliged for the better and more ſecure carrying on of their Trade to have<gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap>Ships of their own.</item>
+                  </list>
+               </div>
+            </div>
+            <div type="entry">
+               <head>
+                  <hi>To which Propoſitions the late Company on the 28</hi> May <hi>1692. put in their Anſwer in theſe words,</hi> viz.</head>
+               <div type="response_to_propositions">
+                  <head>The<note n="*" place="margin">Tho' (as ap<g ref="char:EOLhyphen"/>pears by the Style) 'tis ra<g ref="char:EOLhyphen"/>ther, <hi>The Inſo<g ref="char:EOLhyphen"/>lent Anſwer,</hi> &amp;c.</note> Humble Anſwer of the Governour, Deputy Governour, and Court of Com<g ref="char:EOLhyphen"/>mittees of the <hi>Eaſt-India</hi> Company; to a Paper of <hi>Propoſitions</hi> for Re<g ref="char:EOLhyphen"/>gulation of the <hi>Eaſt-India</hi> Company; Received from the Right Honourable the Earl of <hi>Nottingham,</hi> Their Majeſties Principal Secretary of State.</head>
+                  <p n="1">I. <hi>Propoſition. <hi>THE Fund to be made up</hi>
+                     </hi> 1500000 l. <hi>at least, and not to exceed Two Millions.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſwer.</hi> The Company do humbly averr, and are ready to Prove, to the King's Moſt Excellent Majeſty's Satisfaction, That their pre<g ref="char:EOLhyphen"/>ſent quick and <hi>dead Stock and Revenue</hi> is of more Real Value than the ſaid Sum of 1100000 <hi>l.</hi>
+                  </p>
+                  <p n="2">II. <hi>Prop. <hi>The Stock of the preſent Company to be part of this Fund, and to be rated at</hi>
+                     </hi> 744000 l. <hi>if they can give Security, that it ſhall Effectually produce that Sum; or elſe at ſo much leſs as they will engage to make good after all Debts paid, and Satisfaction made to the</hi> Mogull <hi>and his Subjects; against whoſe Pretenſions the New Stock to be indemnified by the like Security.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> The Company recommending <hi>their Righteous Cauſe to GOD,</hi> and His Majeſties known and famous Juſtice in the whole courſe of his happy Life, ſay, That <hi>The Value of every Thing is
+<pb n="6" facs="tcp:93789:5"/>what it will Sell for;</hi> and their Stock, under all the Calumnies and Perſecutions of their Adverſaries, now currently Sells for 150 l. per <hi>Hundred:</hi> and they know and can prove it to be intrinſecally more worth than that currant Price: But <hi>they know no Law or Rea<g ref="char:EOLhyphen"/>ſon,</hi> why they ſhould be diſpoſſeſſed of their Eſtates, at any leſs Value than they are really worth in ready Money, by all the Mea<g ref="char:EOLhyphen"/>ſures any thing is valued in any part of the World.</p>
+                  <p>They humbly ſay, as to Security, <hi>They know no Reaſon</hi> why they ſhould give Security for their own Eſtates.</p>
+                  <p>They affirm, That they owe not a Penny to <hi>the Great</hi> Mogull, <hi>or any of his Subjects,</hi> other than their running Accounts with their own <hi>Banyans</hi> and Brokers, which are changing daily, like Merchants running Caſh in a Goldſmith's hand.</p>
+                  <p>Although the Company owe nothing to the <hi>Mogull,</hi> as afore<g ref="char:EOLhyphen"/>ſaid, yet the bare mentioning any ſuch thing by a Publick Act of His Majeſty, would be enough to perſwade Him to invent Demands upon the Company, for Tranſactions and Pretences, done in Ages paſt, before any of the preſent Adventurers were born; and there<g ref="char:EOLhyphen"/>fore that part of the Propoſition ſeems <hi>Manifeſtly Impoſſible as well as <g ref="char:V">Ʋ</g>njuſt,</hi> neither the <hi>Mogull</hi> nor any of his Subjects having made any Complaint to His Majeſty, of the Companies being in Debt to him or them: That being only a Suggeſtion of the Interlopers and their Adherents, not only now, but for many years paſt.</p>
+                  <p>As to that <hi>Hypotheſis,</hi> if they can give Security, It will not become the Company to ſay what they might of their own A<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ility, or the Ability or Diſability of their Adverſaries, they are on both ſides well known upon the Exchange.</p>
+                  <p n="3">III. <hi>Prop. <hi>That the ſaid Stock of the preſent Company ſhall be brought home at any time within <gap reason="blank" extent="1 span">
+                              <desc>〈1 span left blank〉</desc>
+                           </gap>years in the Ships abroad, or thoſe to be ſent on account of the New Stock, paying the ſame Freight, and diſpoſed of at Publick Sales by the Members of the pre<g ref="char:EOLhyphen"/>ſent Company, and the Nett-proceed thereof to be taken as part of the</hi>
+                     </hi> 744000 l. <hi>as ſhall alſo the Value of their Forts,</hi> &amp;c. <hi>to be Estimated by indifferent perſons, and put into the hands of the New-Charter Company: But after <gap reason="blank" extent="1 span">
+                           <desc>〈1 span left blank〉</desc>
+                        </gap> days, no Goods to be Exported to the</hi> Eaſt Indies <hi>on Account of the Old Stock.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> The Company ſay they have as real a Right to all their Forts, Cities, Towns, and Territories in <hi>India,</hi> to them and their Succeſſors for ever; as they have to their purchaſed Lands and Ware-houſes in <hi>England</hi> belonging to the Companies Joint-Stock, or other Private Lands or Manors belonging to the particular Ad<g ref="char:EOLhyphen"/>venturers: <hi>Rex Dei Gratia</hi> being Originally the Title by which
+<pb n="7" facs="tcp:93789:5"/>very many Manors and Lands, Court-Leets and Court-Barons are held in <hi>England.</hi> And as the Company are not willing to be diſ<g ref="char:EOLhyphen"/>poſſeſſed of their ſaid Real Eſtate, until they are paid for them; which they believe in their Conſciences, hath Coſt them at ſeveral times above a Million in ready Mony Sterling, beſides the Intereſt. But for the Price that ſhould be paid them for their ſaid Real Eſtates, if it were come to that ſingle point, they would refer themſelves to, and rely upon His Majeſties Juſtice, as aforeſaid.</p>
+                  <p n="4">IV. <hi>Prop. <hi>That what-ever the quick and dead Stock ſhall thus produce more than</hi>
+                     </hi> 744000 l. <hi>ſhall be divided wholly between the Mem<g ref="char:EOLhyphen"/>bers of the preſent Company, proportionably to their reſpective Stocks.</hi>
+                  </p>
+                  <p n="5">V. <hi>Prop. <hi>Books to be provided for new Subſcriptions, within and then the Books to be cloſed.</hi>
+                     </hi>
+                  </p>
+                  <p n="6">VI. <hi>Prop. <hi>If the Subſcriptions exceed Two Millions, each Sub<g ref="char:EOLhyphen"/>ſcriber to be Reduced proportionably, till the whole make but Two Millions.</hi>
+                     </hi>
+                  </p>
+                  <p n="7">VII. <hi>Prop. <hi>That every Subſcriber pay in his Money, upon pain</hi>
+                     </hi> —</p>
+                  <p>To the IV, V, VI, and VII. <hi>Propoſitions,</hi> the Company humbly Anſwer, That they do as little underſtand the New Subſcribers, as they ſuppoſe moſt of thoſe Subſcribers know the Affairs of <hi>India:</hi> But the Company know the late new way of Subſcribing, without Authority from His Majeſty, is an old Practice of Interlopers and others, emulous of the Companies Proſperity; and hath formerly been debated upon the like voluntary Subſcriptions ſeveral times, and many years ſince in the Reign of King <hi>Charles</hi> the Second; when ſome of the Lords of His now Majeſties moſt Honourable Privy Council were preſent: But it always ended, in only giving Unneceſſary Trouble to His Majeſty and the Company.</p>
+                  <p n="8">VIII. <hi>Prop. <hi>No One Perſon to have above</hi>
+                     </hi> 10000 l. <hi>in this Stock, in his own or others Name, in trust for him, and every Sub<g ref="char:EOLhyphen"/>ſcriber ſhall make Oath accordingly; and that it is his Own Money.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> This <hi>Propoſition,</hi> in Duty to His Majeſty, and in Love to our Native Country, the Company muſt freely declare againſt, as <hi>being notoriouſly prejudicial to the Nation,</hi> who-ever the Ad<g ref="char:EOLhyphen"/>venturers are: Firſt, Becauſe Trade is a Free Agent, and muſt not be Limited or Bounded; if it be ſo in any Nation, it will never proſper. Secondly, It is againſt the Laws and Cuſtoms of <hi>England,</hi> and all Nations upon the face of the Earth, That any Man that buys a Commodity, and pays honeſtly for it in Ready Money, ſhould be compelled to Swear it is his Own Money, or whoſe it is; <hi>this being only a Trick of the firſt Propoſers,</hi> to ſerve their particular turn, <hi>without any National or other Regard to Right or
+<pb n="8" facs="tcp:93789:6"/>Publick Good.</hi> Thirdly, If ſuch a Limitation were Adviſable, certainly ſome Nation or other would have hit upon the Expe<g ref="char:EOLhyphen"/>dient before this time: Whereas, on the contrary, the <hi>wiſe Dutch</hi> indulge and favour the very <hi>Jews,</hi> and the more for Buying the greater Stock; of whom, one Man, by name <hi>Swaſſo,</hi> had at one time about 75000 <hi>l.</hi> Stock: The <hi>French</hi> King likewiſe, for the Encouragement of Large Subſcriptions in that Stock, propounded many Conſiderable Priviledges and Immunities, both to Natives and Foreiners, proportionable to the Greatneſs of their ſaid Subſcriptions: The <hi>Danes</hi> likewiſe (it is ſaid) made a Law not long ſince, That ſuch as would not Add a certain Proportion to their Stock already Wrote, ſhould Forfeit their Stock; which was a Conſtraint on the other hand, and as erroneous as that in the aforeſaid <hi>Propoſition.</hi> Fourthly, Such kind of Levelling or Li<g ref="char:EOLhyphen"/>miting Perſonal Eſtates, was never known in Commonwealths, much leſs in Monarchies. Our <hi>Levellers</hi> in <hi>England,</hi> and anti<g ref="char:EOLhyphen"/>ently the <hi>Tribunes</hi> of <hi>Rome,</hi> never pretended to the Limitation of Perſonal Eſtates, but of Poſſeſſions in Land; and not of all Lands, (not in their Provinces;) but only the Lands of <hi>Italy,</hi> which was the Seat or Country of the Commonwealth. Fifthly, No conſiderable Man of Fortune or Experience will ever endure the fatigue of continual Study in the <hi>Eaſt-India</hi> Companies arduous Affairs, but he will find his Account ſome way; and that muſt be either by a Great Reward, or by a Great Stock; or by other and worſe ways of paying himſelf. The moſt the <hi>Engliſh</hi> Companies give a <hi>Committe-Man</hi> is about 50 <hi>l. per ann.</hi> whereas we have heard the <hi>Dutch</hi> allow Mr. <hi>Peter Van Dam</hi> about 800 <hi>l.</hi> and about 400 <hi>l.</hi> a Year to his Son: But ſuch an able active Man's having a great Stock of his own, is better for the Publick Society than any Re<g ref="char:EOLhyphen"/>ward can be allowed him: Becauſe ſuch a Man that is Obliged by Reward only, ſo to Attend the Companies Buſineſs, is tied only by one Cord; but he that expects all Satisfaction to ariſe from the Profit of his own Stock, is tied with the two great Cords, which do almoſt the whole Buſineſs of the World, <hi>viz.</hi> Reward, by the Profit of his own Great Stock, and Fear of Great Loſs, if his own Stock ſhould miſcarry by Ill Conduct.</p>
+                  <p n="9">IX. <hi>Prop. <hi>That every Member of the preſent Company who hath above</hi>
+                     </hi> 10000 l. <hi>Stock, ſhall Sell forthwith the Over-plus at the rate of</hi> 100 l. <hi>for</hi> 100 l. <hi>but ſo that if the whole Nett-proceed of the preſent Stock exceeds</hi> 744000 l. <hi>this over-plus ſhall go to the Perſon that hath Sold his over-plus Stock, proportionably to the Stock he had before ſuch Sale.</hi>
+                  </p>
+                  <pb n="9" facs="tcp:93789:6"/>
+                  <p>
+                     <hi>Anſw.</hi> The Company can ſee <hi>no Shadow of Reaſon or Equity in this Propoſition;</hi> but <hi>a direct Contradiction to Common Right, and the Admirable Laws of this Kingdom</hi> for Preſervation of Property.</p>
+                  <p n="10">X. <hi>Prop. <hi>No Perſon to have a Vote, that hath in his own Right, and not in Truſt, leſs than</hi>
+                     </hi> 500 l. <hi>Stock; nor more than One Vote, unleſs he hath</hi> 4000 l. <hi>and then Two Votes, and if</hi> 6000 l. <hi>Three Votes,</hi> 8000 l. <hi>Four Votes, and</hi> 10000 l. <hi>Five Votes.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> The Company are humbly of Opinion, <hi>This is more justly and equally provided for already in their preſent Charter;</hi> this Propoſal of giving Advantage to the ſmall Stock, being but a <hi>Hy<g ref="char:EOLhyphen"/>ſteron Proteron, never known before in any part of the World</hi> in Mer<g ref="char:EOLhyphen"/>chants Affairs; wherein as far as the Sun ſhines all Men Vote ac<g ref="char:EOLhyphen"/>cording to their proper Shares in Shipping, or as they are Intereſſed more or leſs, and not otherwiſe.</p>
+                  <p n="11">XI. <hi>Prop. <hi>All Members of the preſent Company, and new Sub<g ref="char:EOLhyphen"/>ſcribers to be Incorporated by the Name of</hi>
+                     </hi>
+                  </p>
+                  <p n="12">XII. <hi>Prop. <hi>All who have, or ſubſcribe</hi>
+                     </hi> 500 l. <hi>Stock, to meet and chooſe a Governour, Deputy, and</hi> 24 <hi>Committees to manage the Trade; none to be Governour or Deputy, who hath Subſcribed leſs than</hi> 2000 l. <hi>Stock, nor Committee</hi> 1000 l. <hi>Stock.</hi>
+                  </p>
+                  <p n="13">XIII. <hi>Prop. <hi>The Governour, Deputy, and Committees to be Cho<g ref="char:EOLhyphen"/>ſen every Year; and if any die within the Year, others to be choſen by a General Court.</hi>
+                     </hi>
+                  </p>
+                  <p n="14">XIV. <hi>Prop. <hi>The Governour, Deputy, and Committees to take the Oaths of Fidelity; and alſo an Oath for the faithful Diſcharge of their Trust.</hi>
+                     </hi>
+                  </p>
+                  <p n="15">XV. <hi>Prop. <hi>That every one Purchaſing and Stock, ſhall take his Freedom, and before his Admittance pay <gap reason="blank" extent="1 span">
+                              <desc>〈1 span left blank〉</desc>
+                           </gap> for a Fine, and take the Oaths appointed.</hi>
+                     </hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> In the XI, XII, XIII, XIV, and XV. <hi>Propoſitions,</hi> the Company can ſee nothing New, but all is already <hi>Provided for in the ſame manner, or better, by their preſent Charters.</hi>
+                  </p>
+                  <p n="16">XVI. <hi>Prop. <hi>That all free of the former Company, or capable to be ſo, and all Subſcribing to the preſent Stock, ſhall be admitted</hi>
+                     </hi> gratis</p>
+                  <p>
+                     <hi>Anſw.</hi> In this there is but <hi>a trivial Dffierence</hi> from the Com<g ref="char:EOLhyphen"/>panies preſent Charter, which enjoyns all New Adventurers, except the Sons and Servants of Free-men, to Pay 5 <hi>l.</hi> each for their firſt Admittance. The Old Adventurers have Paid their reſpe<g ref="char:EOLhyphen"/>ctive 5 <hi>l.</hi> and <hi>we can ſee no Reaſon,</hi> if New Men be admitted, why they ſhould not Pay the ſame.</p>
+                  <p n="17">XVII. <hi>Prop. <hi>That the Company hereby Eſtabliſht, may make By-Laws for their better Government. That no By-Laws ſhall be
+<pb n="10" facs="tcp:93789:7"/>binding to the Company, but ſuch as are approved by a General Court of Adventurers, and are not repugnant to the Laws of the Land.</hi>
+                     </hi>
+                  </p>
+                  <p n="18">XVIII. <hi>Prop. <hi>That every General Court and Committee be called by the Governour or Deputy, at all which the Governour or Deputy ſhall be preſent, and in caſe of Equality of Voices, ſhall have a Caſting Voice.</hi>
+                     </hi>
+                  </p>
+                  <p n="19">XIX. <hi>Prop. <hi>That the Company ſhall Enjoy the Sole Trade to the</hi>
+                     </hi> Eaſt-Indies <hi>in the ſeveral Countreys lying between the</hi> Cape de Bona Eſperanza, <hi>and the Streights of</hi> Magellan.</p>
+                  <p n="20">XX. <hi>Prop. <hi>That it ſhall not be lawful for any ſave the ſaid Company only, directly or indirectly to Trade within the Limits granted to the ſaid Company, on pain of Forfeiting</hi>
+                     </hi> —</p>
+                  <p>
+                     <hi>Anſw.</hi> As to the 17, 18.19, and 20. Propoſitions, the Company can obſerve nothing in them that is not already in the ſame manner in their Charters.</p>
+                  <p n="21">XXI. <hi>Prop. <hi>That no Licenſe or Permiſſion ſhall be Granted to any Perſons or Ships, to Trade to the</hi>
+                     </hi> Eaſt-Indies <hi>on any private Ac<g ref="char:EOLhyphen"/>count, and that all ſuch Permiſſions ſhall be void.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw. This is an unreaſonable Propoſition, and againſt the ſenſe of all Charters,</hi> and ought for the Publick Good to be left to the Companies Diſcretion for ſome time, (as in the late War with the <hi>Mogull</hi>) permiſſive Ships have been of great uſe and publick Benefit, at this time now Peace is reſtored they are of no uſe, except in ſome particular inſtances which might be given, and in ſetling of new Plantations, which the Company beſt know when and how to effect; and <hi>no Eaſt-India Company in any part of</hi> Europe <hi>have any ſuch Shackles impoſed upon them,</hi> which would but hinder their Progreſs for the Publick Good and Honour of their Country in many Caſes.</p>
+                  <p n="22">XXII. <hi>Prop. <hi>That there ſhall be no private Contract for the Sale of any Goods, but they ſhall be all Sold in Publick by Inch of Candle for the Companies Account.</hi>
+                     </hi>
+                  </p>
+                  <p n="23">XXIII. <hi>Prop. <hi>That no Lott of any Goods to be Sold, ſhall exceed the Value of</hi>
+                     </hi> 500 l.</p>
+                  <p>
+                     <hi>Anſw. Theſe two are Novelties, and ſuch as were never impoſed upon any</hi> Eaſt-India <hi>Company in</hi> Europe, <hi>and are againſt Natural Right,</hi> and if Eſtabliſht, <hi>would tend to the National Prejudice of England,</hi> as the Company doubt not to make evident to His Ma<g ref="char:EOLhyphen"/>jeſty by irrefragable inſtances and Examples, Trade muſt be Free, for the Publick Good, otherwiſe it will Die, or Fly away.</p>
+                  <p n="24">XXIV. <hi>Prop. <hi>Every Year the Company ſhall deliver to their Majeſties uſe</hi>
+                     </hi> 500 <hi>Tuns of Salt-Peter at</hi> 
+                     <gap reason="blank" extent="1 span">
+                        <desc>〈1 span left blank〉</desc>
+                     </gap> per Tun <hi>if required, the refraction not exceeding</hi>
+                  </p>
+                  <pb n="11" facs="tcp:93789:7"/>
+                  <p>
+                     <hi>Anſ.</hi> The Company will always ſerve Their Majeſties with <hi>Salt-Peter</hi> as Cheap as they can afford it, and doubt not but to pleaſe Their Majeſties therein, as they have done all their Royal Prede<g ref="char:EOLhyphen"/>ceſſors: But to be limited to a certain Price or Quantity or Refra<g ref="char:EOLhyphen"/>ction, <hi>Is a Novelty that was never Impoſed upon this or any</hi> Eaſt-India <hi>Company,</hi> and it had been an unhappy Accident for <hi>England</hi> if ſuch an Impoſition or Conſtraint had been laid upon the Company 10 or 20 years paſt, for if that had been done, there could not have been one fourth part of the <hi>Peter</hi> in <hi>England</hi> as the Company had in Store (which was about 3000 Tuns) when this War with <hi>France</hi> begun. <hi>There is a Famous Story</hi> confirming the Truth of this, in the Reign of King <hi>James</hi> I. there was at that time a great Dearth of Corn, which occaſioned His Majeſty to ſend for the <hi>East-Land</hi> Company, and His Majeſty told them, That in regard of the preſent Dearth of Corn, and for Relief of the Poor, they muſt Load all their Ships homeward Bound with Corn, which they promiſed faithfully to do, and were ſo diſmiſſed; but one of the Lords of the Council told His Majeſty ſuch a Promiſe ſignified nothing, be<g ref="char:EOLhyphen"/>cauſe they had not promiſed at what Rate they would Sell their Wheat when it came, on which they were called in again, and told the King was not ſatisfied with that Anſwer: To whith the Deputy who was <hi>a Famous Hunter,</hi> replyed, Sir We will Freight our Ships and Buy our Corn as Cheap as we can, and Sell it here as cheap as we can afford it; But to be confined to any certain Price we can<g ref="char:EOLhyphen"/>not, That Lord preſſed the Deputy for a more certain Anſwer, on which the Deputy ſaid fur<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>her to the King, Sir, Your Majeſty is a Lover of the Noble Sport of Hunting, and ſo am I, and I keep a few Dogs, but if my Dogs do not love the Sport as well as I, I might as well Hunt with Hogs, as with Dogs. The King replied, Say no more, Man, thou art in the Right; go and do as well as you can, but be ſure bring Corn.</p>
+                  <p n="25">XXV. <hi>Prop. <hi>That the Company ſhall Yearly Export to the</hi>
+                     </hi> Eaſt-Indies <hi>not leſs than the Value of</hi> 100000 l. <hi>in Goods, of the Product and Manufactures of</hi> England.</p>
+                  <p>
+                     <hi>Anſw.</hi> The Company may do this in ſome years, and ſometimes more, and ſometimes not ſo much, when their Cloth lyes unſold, and is eaten up with Moths and white Ants in <hi>India:</hi> This ought for the Publick Good, <hi>to be left to the Companies diſcretion.</hi>
+                  </p>
+                  <p n="26">XXVI. <hi>Prop. <hi>That all Dividends be made in Money.</hi>
+                     </hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> This is commonly done here and beyond Sea, in other Companies; but ſome Inſtances may be given, wherein it would be highly Prejudicial to make this Confinement of the Companies Li<g ref="char:EOLhyphen"/>berty.
+<pb n="12" facs="tcp:93789:8"/>
+                     <hi>So it ought to be left to diſcretion;</hi> as it is now here, and in all other Nations</p>
+                  <p n="27">XXVII. <hi>Prop. <hi>That no Dividend be made without leaving the Original Fund, or at leaſt</hi>
+                     </hi> 1500000 <hi> l. beſides what is neceſſary to pay their Debts.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> This is a Diſcretionary Rule the Company do now ob<g ref="char:EOLhyphen"/>ſerve: But was never Injoyned them by any Charter, <hi>neither is there any Company in the World ſo Circumſcribed, nor ought to be, for the Publick Good. It is againſt Natural Right,</hi> that any Men ſhould be Barr'd from doing what they think fit with their own Eſtates.</p>
+                  <p n="28">XXVIII. <hi>Prop. <hi>That the ſaid Companies Accomptant keep a Book to enter the Value of the</hi>
+                     </hi> Stock <hi>upon Oath, to lie Open for the peruſal of all perſons concerned.</hi>
+                  </p>
+                  <p n="29">XXIX. <hi>Prop. <hi>That all Transferrs of</hi>
+                     </hi> Stock <hi>ſhall be Registred and Entred in a Book, to lie open to all perſons concerned.</hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> The 28 and 29 <hi>Prop.</hi> are Provided for in the ſame manner already by the Company.</p>
+                  <p n="30">XXX. <hi>Prop. <hi>That the ſaid Joint-Stock ſhall continue for</hi>
+                     </hi> 21 <hi>years and no longer.</hi>
+                  </p>
+                  <p n="31">XXXI. <hi>Prop. <hi>That a Book of new Subſcriptions be laid open for a ſucceeding new General Joint-Stock before the expiration of the ſaid</hi>
+                     </hi> 21 <hi>years appointed for this Stock.</hi>
+                  </p>
+                  <p>Anſw. <hi>This is ſo strange, that if it ſhould be admitted, would make the Company Ridiculous all the World over:</hi> and is as much as to ſay, a Man ſhall be Obliged to Plant a great Orchard, and Remove his Trees, or Depart from his Poſſeſſion at the end of 21 Years; or to Build a famous Manſion-Houſe, a Town, or City upon ſuch Terms. The <hi>Dutch</hi> Company have Spent within 30 or 40 Years paſt, above 700000 <hi>l.</hi> upon <hi>Ceylon,</hi> and have not yet ſeen their Principal, by about 400000 <hi>l.</hi> to this day: this Company have been Building and Fortifying at <hi>Bencolen</hi> about 10 or 11 Years, and they muſt proceed in Building and Fortifying there for 20 or 30 Years to come; and in that chargeable and dangerous Work they have ſpent near 250 <hi>l.</hi> to 300000 <hi>l.</hi> Sterling. And though indeed by that neceſſary Work they have preſerved the p<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pper Trade to this Nation, yet they have not Received any thing towards the Charge of theſe Disburſements: and that Place will coſt the Com<g ref="char:EOLhyphen"/>pany 200000 <hi>l.</hi> more, before it can bemade a complete, ſecure, (and morally ſpeaking) an impregnable <hi>Aſylum</hi> to the <hi>Engliſh</hi> Nation. <hi>It is a moſt Impolitick Notion,</hi> That any Company can Thrive by frequent Change of Conduct and Council, any more than a Nation by often Changing the Fundamental Laws. The
+<pb n="13" facs="tcp:93789:8"/>
+                     <hi>Dutch</hi> Company ſtands as it did from the Beginning, and the <hi>Engliſh</hi> hath never been Changed that the Company knows of, but once in <hi>O. Cromwell</hi>'s time; and then it was done with their own conſent. <hi>The Company, by the true Rules of Policy, ought never to Alter,</hi> nor any Man be Forced to Sell his Stock, any more than he can be forced to Buy a Stock that hath none: Or any Gentleman that hath an over-grown Eſtate in Land in any Countrey, can be forced to Sell part, to make way for ſome new Purchaſers, that pretend they will Buy Land in that Countrey.</p>
+                  <p n="32">XXXII. <hi>Prop. <hi>That the Company be obliged for the better and more ſecure carrying on of this Trade to have <gap reason="blank" extent="1 span">
+                              <desc>〈1 span left blank〉</desc>
+                           </gap> Ships of their own.</hi>
+                     </hi>
+                  </p>
+                  <p>
+                     <hi>Anſw.</hi> This is <hi>ſuch a Conſtraining Propoſition</hi> as was never made to any Company; all Companies having Ships of their own, and hired Ships; and beſt know when to uſe the one or the other; and there are few Merchants conſiderable in <hi>Europe,</hi> that have not both: <hi>And it was never thought or found Political, to put Trade into ſuch ſtrait-laced Bodies,</hi> which inſtead of making it grow upright and proſper, will either kill it, or force it to grow awry.</p>
+                  <p>This was <hi>the Language,</hi> with which the Late Company treated thoſe Honourable Lords; calling ſome of their <hi>Propoſitions Impoſſible as well as <g ref="char:V">Ʋ</g>njust;</hi> others, <hi>Notoriouſly Prejudicial to the Nation;</hi> one, <hi>Without any Shadow of Reaſon or Equity;</hi> another, <hi>A Trick;</hi> another, <hi>A moſt Impolitick Notion,</hi> &amp;c.</p>
+               </div>
+               <div type="propositions_to_the_propositions">
+                  <head>Having Anſwered <hi>the aforeſaid</hi> Propoſitions, <hi>the</hi> Company <hi>humbly deſire that</hi> the following Propoſitions <hi>may be Con<g ref="char:EOLhyphen"/>ſidered.</hi>
+                  </head>
+                  <p>
+                     <hi>FIrſt,</hi> If any Alteration ſhould be made ofthe preſent Conſti<g ref="char:EOLhyphen"/>tution by His Majeſty, the ſame Men, <hi>viz.</hi> Interlopers and their Adherents, and ſuch as have ſold their Stock at high rates, and then cry down the Company to fright the Adventurers, and come in again at low rates; whether ſuch ſort of Men, after His Majeſty hath granted a New Charter, will not, to ſerve another turn, Ex<g ref="char:EOLhyphen"/>claim againſt it, in defamation of His Majeſties juſt Prerogative.</p>
+                  <p>
+                     <hi>Secondly,</hi> Whether any thing ſuch Men have ſaid, that carries any appearanc of Truth, be not the ſame again which was ſaid above 20 years paſt, and many times ſince in the two laſt Reigns, and as often Anſwered and Confuted.</p>
+                  <pb n="14" facs="tcp:93789:9"/>
+                  <p>
+                     <hi>Thirdly,</hi> Whether the Spirit of Clamour and Oppoſition againſt the Company, which centers in ſome few known Perſons, whether thoſe perſons be men of better Fortune, or more regular Lives, or greater Prudence, or otherwiſe preferrible to the preſent Adven<g ref="char:EOLhyphen"/>turers in the <hi>East-India</hi>-Company-Stock.</p>
+                  <p>
+                     <hi>Fourthly,</hi> Whether conſidering the two Wars this Company have grappled with in <hi>India,</hi> and a worſe kind of Civil Broil the Inter<g ref="char:EOLhyphen"/>lopers forced them to, more pernicious to the Company than both the Wars in <hi>India;</hi> whether the Company, notwithſtanding their ſaid Preſſures, hath not Managed their Affairs to as much National Advantage, and Profit to their Fellow-Adventurers, as any <hi>East-India</hi> Company<g ref="char:punc">▪</g> in <hi>Europe.</hi>
+                  </p>
+                  <p>
+                     <hi>Fifthly,</hi> That without Reſtraint, Cramping, or taking Care for Rotaions or Changes in the <hi>Eaſt-India</hi> Company, the whole Stock, without ſuch forced Political Reſtrictment or Limitation, is in a kindly, natural, and continual Changing Motion; in ſo much that the Value of the Stock, once in Two Years or therabout, changes Owners; and there is not now in the preſent Committee Three Men that were of the Committee above Twenty Years paſt.</p>
+                  <p>
+                     <hi>Sixthly,</hi> That the preſent Governour Sir <hi>Thomas Cook</hi> about Nine Years paſt had no Stock at all, nor Sir <hi>Joſeph Herne</hi> the late Go<g ref="char:EOLhyphen"/>vernour, about 20 years paſt, nor Sir <hi>William Langhorne</hi> now one of the greateſt Adventurers, 4 years ſince; and ſeveral other Conſi<g ref="char:EOLhyphen"/>derable Adventurers not above 2 years paſt, they came in by ſeve<g ref="char:EOLhyphen"/>ral Purchaſes, and many at much dearer Rates than the preſent Price Currant of the Stock; and there is now of the preſent Com<g ref="char:EOLhyphen"/>mittee Five Worthy Perſons very late Purchaſers, which were never of the Committee before this Year.</p>
+                  <p>
+                     <hi>Seventhly,</hi> If it be thought by any that Envy the Companies good Fortune, that ſome few of the Company are too Rich and Powerful in the Committee, the Company anſwer that to Cure that if it be a Fault, there needs no new Laws nor Articles in any Charter, for a very few years will cure that without ſuch preternatural force, for that the Sons of ſuch Men were never known to ſucceed their Fathers in the painful Fatigue of the Companies Affairs, but did always ſettle themſelves upon an eaſier courſe of Life by a Reve<g ref="char:EOLhyphen"/>nue in Land.</p>
+                  <p>
+                     <hi>Eighthly,</hi> If there be ſome of the preſent Adventurers that had Courage enough to keep their Stock, and never Sold any part thereof during all thoſe violent and unreaſonable Attempts that have been made againſt the Company, whether ſuch perſons do not rather Deſerve the Thanks which the <hi>Roman</hi> Senate gave <hi>Te<g ref="char:EOLhyphen"/>rentius Varro, quod non Deſperaſſet de Republica,</hi> than any Blame.</p>
+                  <pb n="15" facs="tcp:93789:9"/>
+                  <p>
+                     <hi>Ninthly,</hi> The Company, nor peradventure any great buſineſs in the World did ever Thrive where ſome One or Two Men, or ve<g ref="char:EOLhyphen"/>ry few did not arrive to ſo much Reputation (as <hi>Machiavel</hi> calls it) as to be able to moderate the Councils of the Common-wealth or Society; ſo it's now in the <hi>Netherlands Eaſt-India</hi> Company, and ſo it was ever in the <hi>Engliſh East-India</hi> Company, except for the firſt Seven years after the laſt Change, in which ſeven Years the Stock and the Companies Affairs dwindled almoſt to Nothing, until Sir <hi>William Thompſon</hi> deceaſed (a Gentleman of Fa<g ref="char:EOLhyphen"/>mous Prudence and Integrity arrived at that Reputation, that in ef<g ref="char:EOLhyphen"/>fect he Governed the whole affair of the Company until the day of his Death, and under his ſaid Conduct the Companies Affairs did Revive and Proſper, and have ſince his Death more increaſed by happy Methods derived from his Wiſdom originally: His worthy Son and Poſterity are now ſettled upon Eſtates in Land and have no concern in the Company.</p>
+                  <closer>
+                     <signed>Signed by Order of the Court of Committes. <hi>Rob. Blackborne.</hi>
+                     </signed>
+                     <dateline>
+                        <hi>Eaſt-India Houſe</hi> 
+                        <date>20th <hi>May</hi> 1692.</date>
+                     </dateline>
+                  </closer>
+               </div>
+            </div>
+            <div type="entry">
+               <head>Whereupon the next Seſſion, <hi>viz. Lunae</hi> 14. <hi>die Novembris</hi> 1692.</head>
+               <p>Sir <hi>Edward Seymour</hi> acquaints the Houſe that he had a Meſſage from His Majeſty in Anſwer to the Addreſs of this Houſe the laſt Seſſions, in relation to the <hi>Eaſt-India Company,</hi> the which he deli<g ref="char:EOLhyphen"/>vered in Writing at the Table where the ſame was read — in theſe Words, <hi>viz.</hi>
+               </p>
+               <q rend="margQuotes">
+                  <p>
+                     <hi>THE</hi> Houſe of Commons <hi>having Preſented an</hi> Addreſs <hi>to the</hi> King, <hi>to</hi> Diſſolve the Preſent <hi>Eaſt-India</hi> Company, <hi>accord<g ref="char:EOLhyphen"/>ing to the Power reſerved in their Charter, and to Conſtitute a</hi> New One, <hi>His</hi> Majeſty <hi>took into Conſideration the Proper Methods of complying with their deſires, and of Securing effectually this Advan<g ref="char:EOLhyphen"/>tageous Trade to the</hi> Nation.</p>
+                  <p>
+                     <hi>But His</hi> Majeſty <hi>upon Examination of the</hi> Charter, <hi>and conſulting His Judges and Learned Council, found that He could not Legally Diſſolve the</hi> Company, <hi>but upon Three Years Warning; and that during the three years after warning, the</hi> Company <hi>must ſubſiſt and might continue to Trade; and that tho' the</hi> King <hi>might conſtitute a</hi> New Company, <hi>yet He could not empower ſuch</hi> New Company <hi>to Trade,
+<pb facs="tcp:93789:10"/>
+                        <gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>till after Three Years: the</hi> Crown having expreſly Covenanted, not to Grant any ſuch Liberties.</p>
+                  <p>
+                     <hi>Hereupon His</hi> Majeſty <hi>was very apprehenſive of the ill conſequences of giving warning to the</hi> Company, <hi>becauſe they would be then leſs ſolicitous of promoting the true interest and advantage of the Trade, whereof they could not long reap the fruits; and that no</hi> New Com<g ref="char:EOLhyphen"/>pany <hi>could be immediately admitted to it:</hi> So that this very Bene<g ref="char:EOLhyphen"/>ficial Trade, which is already ſo much impaired, might be in danger of being entirely loſt to the Nation.</p>
+                  <p>
+                     <hi>His</hi> Majeſty <hi>being very deſirous to prevent ſo great a miſchief, and to gratifie the</hi> Houſe of Commons <hi>in the end, ſince He could not do it without great hazard in the manner they propoſed, required the</hi> Eaſt-India <hi>Company to anſwer directly, whether they would ſubmit to ſuch Regulations as His</hi> Majeſty <hi>ſhould judge proper, and most likely to ad<g ref="char:EOLhyphen"/>vance the Trade:</hi> And the <hi>Company</hi> having fully agreed to it, <hi>and declared their Reſolution in writing, His</hi> Majeſty <hi>commanded a</hi> Com<g ref="char:EOLhyphen"/>mittee <hi>of His</hi> Privy Council <hi>to prepare</hi> Regulations; <hi>which they did, and offered them to the</hi> Company: <hi>But</hi> the <hi>Company,</hi> notwithſtanding their Declaration of Submiſſion, rejected almoſt all the Material Particulars.</p>
+                  <p>
+                     <hi>So that His</hi> Majeſty <hi>finding, That what poſſibly the</hi> Houſe of Com<g ref="char:EOLhyphen"/>mons <hi>might have expected, and <hi>Indeed was neceſſary to Pre<g ref="char:EOLhyphen"/>ſerve this Trade, could not be perfected by His own Autho<g ref="char:EOLhyphen"/>rity alone;</hi> and that the</hi> Company <hi>could not be induced to conſent to any ſuch</hi> Regulations; <hi>as might have anſwered</hi> the Intentions of the Houſe of <hi>Commons; and <hi>That the Concurrence of the Parlia<g ref="char:EOLhyphen"/>ment is requiſite to make a complete and uſeful Settlement of this Trade,</hi> has directed all the Proceedings in this matter to be laid before them, and recommends to them the preparing of ſuch a Bill, in order to paſs into an Act of</hi> Parliament, <hi>as may eſtabliſh this Trade on ſuch Foundations as are moſt likely to preſerve and advance it.</hi>
+                  </p>
+               </q>
+            </div>
+            <div type="entry">
+               <head>Upon this Meſſage, the Honourable <hi>Houſe of Commons</hi> took into Conſideration the Settlement of the ſaid Trade; but finding the ſame Obſtructed by the then Companies great Oppoſition, toward the End of the Seſſion, <hi>Viz. Sabbati,</hi> 
+                  <date>25 <hi>die Februarii.</hi> 1692.</date>
+               </head>
+               <p>
+                  <hi>Reſolved,</hi>
+               </p>
+               <p>That an Humble Addreſs be preſented to His <hi>Majeſty,</hi> That He will Diſſolve the <hi>Eaſt-India</hi> Company upon Three Years Warning to the ſaid Company, according to the Power reſerved in their Charter.</p>
+               <pb n="17" facs="tcp:93789:10"/>
+               <p>
+                  <hi>Reſolved,</hi>
+               </p>
+               <p>That the ſaid Addreſs be Preſented by the whole Houſe.</p>
+            </div>
+            <div type="entry">
+               <head>
+                  <hi>Veneris,</hi> 30 <hi>die Martis,</hi> 1692.</head>
+               <p>Mr. Speaker Reported to the Houſe, That he did yeſterday Preſent to His <hi>Majeſty</hi> their Addreſs touching the <hi>Eaſt-India</hi> Com<g ref="char:EOLhyphen"/>pany, and that His <hi>Majeſty</hi> was pleaſed to Expreſs Himſelf to this Effect, <hi>viz.</hi>
+               </p>
+               <p>Gentlemen,</p>
+               <p>
+                  <hi>I will always do all the Good in My Power for this Kingdom, and I will Conſider your Addreſs.</hi>
+               </p>
+               <p>Notwithſtanding the aforeſaid Propoſitions, ſome time after, ſeveral <hi>other Regulations</hi> were agreed on, to Eſtabliſh the ſaid Company, by adding New Subſcriptions to their Stock, <hi>Without any Security to be given, to make that Stock worth any thing at all.</hi> — But thoſe Regu<g ref="char:EOLhyphen"/>lations did not paſs into a Charter; the late Company having made default in Paying in the firſt Quarterly Pay<g ref="char:EOLhyphen"/>ment of the Tax charged on their Joynt-Stock, according to the Tenour of <hi>the Act of Parliament;</hi> whereby their former Charters became abſolutely <hi>Void in Law.</hi> —</p>
+               <p>
+                  <hi>However, the Late Company, by their Induſtrious Application have ſince procured</hi> A NEW CHARTER, <hi>(for Reſtoring and Confirming all their former Grants:) which paſſed under the Great Seal the Seventh day of</hi> October, 1693.</p>
+               <div type="charter">
+                  <head>[Which <hi>New Charter</hi> follows in theſe Words, <hi>Viz.</hi>]</head>
+                  <p>
+                     <hi>WIlliam</hi> and <hi>Mary,</hi> By the Grace of GOD King and Queen of <hi>England, Scotland, France,</hi> and <hi>Ireland,</hi> Defenders of the Faith, <hi>&amp;c. To All,</hi> to whom theſe Preſents ſhall come, <hi>Greeting.</hi> Whereas the Governour and Com<g ref="char:EOLhyphen"/>pany of Merchants of <hi>London</hi> Trading into the <hi>Eaſt-Indies,</hi> have been of long time, <hi>to the Honour and Profit of this Nation,</hi> a Corporation, and have enjoyed divers Liberties, Priviledges,
+<pb facs="tcp:93789:11"/>and Immunities, by force of ſeveral Charters and Letters Patents heretofore Granted to them by ſeveral of Our late <hi>Royal Prede<g ref="char:EOLhyphen"/>ceſſours,</hi>
+                     <note n="*" place="margin">Recital of ſeveral of their former Char<g ref="char:EOLhyphen"/>ters.</note> more particularly by Letters Patents of Our late Royal Uncle King <hi>Charles</hi> the Second, under the Great Seal of <hi>England,</hi> bearing Date the Third day of <hi>April,</hi> in the Thirteenth year of His Reign; and by one other Charter, or Letters Patents of the ſaid King <hi>Charles</hi> the Second, under the Great Seal of <hi>England,</hi> bearing Date, at <hi>Westminster</hi> the 27 day of <hi>March,</hi> in the 20 year of His Reign: and by one other Charter or Letters Patents of the ſaid K. <hi>Char.</hi> II. bearing date, at <hi>Westminster</hi> the 16 day of <hi>December,</hi> in the 25 year of His Reign: and by one other Charter of Letters Patents of the ſaid late K. <hi>Char.</hi> II. bearing date, the 9 day of <hi>Auguſt,</hi> in the 35 year of His Reign: and alſo by a Charter or Letters Patents of the late K. <hi>James</hi> II. bearing date, at <hi>Westminſter</hi> the 12 day of <hi>April,</hi> in the Second year of His Reign. <hi>And whereas ſome Doubt or Queſtion hath of late been made, touching the Dalidity of the Char<g ref="char:EOLhyphen"/>ters of the ſaid Company;</hi> and whether the ſame be not in ſtrictneſs of Law, Void, by the not actual Payment into the Re<g ref="char:EOLhyphen"/>ceipt of <hi>Our Exchequer,</hi> of the Firſt Quarterly Payment of the Tax of 5 <hi>L. per Cent.</hi> Charged on the <hi>General Joynt-Stock of the ſaid Company;</hi> according to <hi>an Act</hi> made in the Laſt Seſſion of this preſent Parliament, entituled, <hi>An Act for Continuing certain Acts therein mentioned, and for Charging ſeveral Ioynt-Stocks. <hi>Now Know</hi>
+                     </hi> ye, That We taking the Premiſſes into Our Royal Conſideration, and well weighing what Diſorders and Inconveniencies would befal the ſaid Company and other Perſons concerned and employed in their Trade and Adventures, eſpecially in the Remote Parts of the World, if We ſhould take Advantage of the Forfeiture aforeſaid, (if any be;) And We being willing that the ſaid Governour and Company, or late Go<g ref="char:EOLhyphen"/>vernour and Company of Merchants of <hi>London,</hi> Trading into the <hi>East-Indies,</hi> and their Succeſſours, ſhould Have and Enjoy <hi>all ſuch and the like Lawful Powers, Priviledges, Ad<g ref="char:EOLhyphen"/>vantages, and Immunities;</hi> and in as ample manner, to all intents and purpoſes, as if the ſaid Firſt Quarterly Payment of the ſaid Tax had been duely and regularly Made, according to the ſaid Act:<note n="*" place="margin">Their Maje<g ref="char:EOLhyphen"/>ſties Grant, that the Mem<g ref="char:EOLhyphen"/>bers of the late Company</note>
+                     <hi>Of Our especial Grace, certain Knowledge, and meer Motion;</hi> have made, ordained, conſtituted, declared, and appointed; and by theſe Preſents, for Us, Our Heirs and Succeſſours, do make, ordain, conſtitute, declare, and appoint, That Sir <hi>Tho. Cooke</hi> Knight, and one of the Aldermen of Our City of <hi>London,
+<pb n="19" facs="tcp:93789:11"/>Francis Tyſſen</hi> Eſq; <hi>George</hi> Earl of <hi>Berkley,</hi> Sir <hi>John Fleet</hi> Knight, Lord Mayor of Our City of <hi>London;</hi> S r <hi>Joſiah Child</hi> Baronet, Sir <hi>William Langhorne</hi> Baronet, Sir <hi>Benjamin Bathurst</hi> Knight, Sir <hi>John Moore</hi> Knight, and one of the Aldermen of Our City of <hi>London;</hi> Sir <hi>Samuel Daſhwood</hi> Knight, and one of the Aldermen of Our City of <hi>London;</hi> Sir <hi>Edward Des Bouvery</hi> Knight, Sir <hi>Tho. Rawlinſon</hi> Knight, Sir <hi>William Gore</hi> Knight, and one of the Alder<g ref="char:EOLhyphen"/>men of Our City of <hi>London;</hi> Sir <hi>Joſ. Herne</hi> Knight, Sir <hi>Rowland Aynſworth</hi> Knight, <hi>John Perry</hi> Eſq <hi>Geo. Boune</hi> Eſq <hi>Ric. Hutchin<g ref="char:EOLhyphen"/>ſon</hi> Jun. Eſq <hi>Frederick Herne</hi> Eſq <hi>Ralph Marſhall</hi> Eſq <hi>Ric. Acton, Jo. Cooke</hi> of <hi>Hackney, Francis Gosfright, John Dubois, Iſaac Houblon, Samuel Ongley,</hi> and <hi>Nathaniel Mounteney,</hi> Gentlemen; and all and every other Perſon and Perſons, who were Members of the ſaid Company, or Late Company of Merchants of <hi>London</hi> Trading into the <hi>East-Indies,</hi> on the 24 day of <hi>March</hi> now laſt paſt, who have not ſince parted with their Stocks in the ſaid Company;<note n="*" place="margin">(Together with all perſons come into the Company ſince the <hi>24</hi> of <hi>March, 1693.</hi>) be incorporated by the name of the Governour and Company, <hi>&amp;c.</hi>
+                     </note>
+                     <hi>And all and every other Perſon and Perſons, who ſince the</hi> 24 <hi>day of</hi> March <hi>laſt paſt, by Buying Stock or otherwiſe, have come into, and remain in a capacity of being Mem<g ref="char:EOLhyphen"/>bers of the ſaid Company,</hi> be and ſhall be one Body, Corporate and Politick, in Deed and in Name, by the Name of <hi>the Go<g ref="char:EOLhyphen"/>vernour and Company of Merchants of</hi> London <hi>Trading into the</hi> Eaſt-Indies; and them by the Name of <hi>the Governour and Company of Merchants of</hi> London, <hi>Trading into the</hi> Eaſt-Indies, one Body Cor<g ref="char:EOLhyphen"/>porate and Politick, in deed and in name, really and fully <hi>for ever,</hi> for Us, Our Heirs and Succeſſours, We do make, declare, eſtabliſh, and confirm by theſe preſents, <hi>under and ſubjects</hi> to the Proviſoes and Conditions, and upon the terms hereafter in theſe preſents menti<g ref="char:EOLhyphen"/>oned, and that by the ſame name of <hi>the Governour and Company of Merchants of</hi> London <hi>Trading into the</hi> Eaſt-Indies, they ſhall have <hi>perpetual Succeſsion,</hi> and that they and their Succeſſors by the name of <hi>the Governour and Company of Merchants of</hi> London <hi>Trading into the</hi> Eaſt-Indies be, and at all times ſhall be Perſons able, and a Body Corporate and Politick,<note n="*" place="margin">And that they ſhall be capable to Purchaſe Lands, <hi>&amp;pc.</hi>
+                     </note> capable in Law, to have, purchaſe, receive, poſſeſs, enjoy and retain Lands, Rents, Priviledges, Li<g ref="char:EOLhyphen"/>berties, Juriſdictions, Franchiſes and Hereditaments, of what kind, nature or quality ſoever they be, to them and their Succeſſors, and alſo to give, grant, demiſe, alien, aſſign and diſpoſe Lands, Tene<g ref="char:EOLhyphen"/>ments and Hereditaments, and to do and execute all and ſingular other things by the ſame name, that to them ſhall or may appertain to do. <hi>And</hi> that they and their Succeſſors by the name of the <hi>Go<g ref="char:EOLhyphen"/>vernour and Company of Merchants of</hi> London <hi>Trading into the</hi> Eaſt-Indies
+<pb n="20" facs="tcp:93789:12"/>may Plead and be Impleaded,<note place="margin">To Anſwer, and be Anſwered, Defend, and be Defended, <hi>&amp;c.</hi>
+                     </note> Anſwer and be Anſwered, De<g ref="char:EOLhyphen"/>fend and be Defended, in whatſoever Courts and Places, and before whatſoever Judges and Juſtices, and other Perſons and Officers in all and ſingular Actions, Pleas, Suits, Quarrels, Cauſes and demands whatſoever, of whatſoever kind, nature or ſort, in ſuch manner and form as any other <hi>Our Liege People</hi> of this <hi>Our Realm of</hi> Eng<g ref="char:EOLhyphen"/>land being Perſons able and capable in Law, may or can have, pur<g ref="char:EOLhyphen"/>chaſe, receive, poſſeſs, enjoy, retain, give, grant, demiſe, alien, aſſign, diſpoſe, plead, defend, and be defended, releaſe, and be releaſed,<note place="margin">To have a Com<g ref="char:EOLhyphen"/>mon Seal.</note> do, permit and execute. And that the ſaid <hi>Governour and Company of Merchants of</hi> London <hi>Trading into the</hi> Eaſt-Indies, and their Succeſſors may have a <hi>Common Seal</hi> to ſerve for all the Cauſes and Buſineſſes of them and their Succeſſors: And that it ſhall and may be lawful for the ſaid Governour and Company, and their Succeſſors the ſame Seal from time to time, at their Will and Pleaſure, to break, change, and to make new, or alter, as to them ſhall ſeem expedient. And further, We will and by theſe preſents for Us, Our Heirs and Succeſſors, We do Ordain, That there ſhall be<note place="margin">To have one Governour, one Deputy-Gover<g ref="char:EOLhyphen"/>nour, and <hi>24</hi> Committees.</note> one of the ſame Company who ſhall be and ſhall be call <hi>the Governour of the ſaid Company,</hi> and alſo one other of the ſaid Company who ſhall be and ſhall be called <hi>the Deputy-Go<g ref="char:EOLhyphen"/>vernour of the ſaid Company;</hi> and that there ſhall likewiſe be Twenty Four of the ſaid Company, who ſhall be and ſhall be called <hi>the Committees of the ſaid Company,</hi> who together with <hi>the Gover<g ref="char:EOLhyphen"/>nour</hi> of the ſaid Company for the time being, ſhall have the dire<g ref="char:EOLhyphen"/>ction of <hi>the Voyages</hi> of or for the ſaid Company, and the Provi<g ref="char:EOLhyphen"/>ſion of <hi>the Shipping and Merchandizes</hi> thereunto belonging, and al<g ref="char:EOLhyphen"/>ſo the <hi>Sale of all Merchandizes, Goods and other things</hi> return'd in all or any of the Voyages or Ships of or for the ſaid Company, and <hi>the managing and handling of all other buſineſs, affairs and things</hi> belonging to the ſaid Company. And for the better execution of Our ſaid Will and Grant in this behalf, we have aſſigned, nomina<g ref="char:EOLhyphen"/>ted, conſtituted, made, and confirmed, and by theſe Preſents for Us Our Heirs and Succeſſors,<note place="margin">And that Sir <hi>Tho. Cooke</hi> be the firſt Gover<g ref="char:EOLhyphen"/>nour.</note> do aſſign, nominate, conſtitute, make, and confirm <hi>the ſaid</hi> Sir Thomas Cooke <hi>to be the preſent Governour</hi> of the ſaid Company, and to continue in the ſaid Office from the Date of theſe preſents, until the 10th day of <hi>April</hi> now next fol<g ref="char:EOLhyphen"/>lowing, if the ſaid Sir <hi>Tho. Cooke</hi> ſhall ſo long live, or until <hi>a new Governour</hi> be choſen by the ſaid Company as heretofore hath been uſed and accuſtomed. And we have alſo nominated, conſtituted, made and confirmed,<note place="margin">
+                        <hi>Francis Tyſ<g ref="char:EOLhyphen"/>ſen</hi> the firſt Deputy Gover<g ref="char:EOLhyphen"/>nour.</note> and by theſe preſents for Us, Our Heirs and Succeſſors do nominate, conſtitute, make, and confirm the ſaid <hi>Francis Tyſſen</hi> to be the preſent <hi>Deputy-Governour</hi> of the ſaid
+<pb n="21" facs="tcp:93789:12"/>Company, and to continue in the ſaid Office from the Date of theſe Preſents, until the ſaid 10 day of <hi>April</hi> now next following; if the ſaid <hi>Francis Tyſſen</hi> ſhall ſo long live; or until <hi>a new Deputy-Governour</hi> be choſen be choſen by the ſaid Company, as heretofore hath been uſed and accuſtomed: And We have alſo nominated, conſtituted, made, and confirmed; and by theſe Preſents, for Us, Our Heirs and Succeſſors, do nominate, conſtitute, make, and confirm the ſaid<note n="*" place="margin">
+                        <hi>George</hi> Earl of <hi>Berk<g ref="char:EOLhyphen"/>ley,</hi> Sir <hi>John Fleet, &amp;c.</hi> the firſt Committees.</note>
+                     <hi>George</hi> Earl of <hi>Berkley,</hi> Sir <hi>John Fleet,</hi> Sir <hi>Joſiah Child,</hi> Sir <hi>William Langhorne,</hi> Sir <hi>Benjamin Bathurſt,</hi> Sir <hi>John Moore,</hi> Sir <hi>Samuel Daſhwood,</hi> Sir <hi>Edward Des Bouvery,</hi> Sir <hi>Thomas Rawlinſon,</hi> Sir <hi>William Gore,</hi> Sir <hi>Joſeph Herne,</hi> Sir <hi>Rowland Aynſworth, John Perry, George Boune, Richard Hutchinſon</hi> Junior, <hi>Frederick Herne, Ralph Marſhall, Richard Acton, John Cook</hi> of <hi>Hackny, Francis Gosfright, John Dubois, Iſaac Houblon, Samuel Ongley,</hi> and <hi>Na<g ref="char:EOLhyphen"/>thaniel Mounteney,</hi> to be the 24 <hi>preſent Committees</hi> of the ſaid Company from the Date of theſe Preſents, until the ſaid 10 day of <hi>April</hi> next following; or until <hi>a New Committee</hi> ſhall be choſen by the ſaid Company, as in that caſe hath been alſo formerly uſed and accuſtomed.<note n="*" place="margin">Provided, they ſeverally take the Oaths ap<g ref="char:EOLhyphen"/>pointed, inſtead of the Oaths of Allegiance and Supremacy, and alſo the Oaths of their respe<g ref="char:EOLhyphen"/>ctive Offices.</note>
+                     <hi>Provided</hi> always, and We do hereby require and command, That the Governour herein before-named, ſhall, be<g ref="char:EOLhyphen"/>fore he be admitted to the Execution of the ſaid Office, Take the Oaths appointed to be Taken by a late <hi>Act of Parliament,</hi> made in the Firſt year of Our Reign, entituled, <hi>An Act for the Abro<g ref="char:EOLhyphen"/>gating of the Oaths of Sup<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>emacy and Allegiance, and ap<g ref="char:EOLhyphen"/>pointing other Oaths:</hi> And alſo a Corporal Oath, That he ſhall and will, from time to time, well and truly Execute <hi>the Office of Governour</hi> of the ſaid Company, before the ſaid Deputy-Governour, and any Five or more of the Committees herein before<g ref="char:EOLhyphen"/>named: To whom We do hereby give full Power and Authority, to Give and Adminiſter the ſaid Oaths to the ſaid Governour accordingly. — And alſo that the Deputy-Governour and 24 Committees herein before named and conſtituted, ſhall reſpectively take the ſaid Oaths, appointed by the ſaid late <hi>Act of Parliament;</hi> and alſo a Corporal Oath, That they will faithfully and truly Execute their ſaid ſeveral and reſpective Offices of Deputy-Governour and Committees of the ſaid Company, before the ſaid Sir <hi>Thomas Cooke,</hi> herein before named and conſtituted to be the preſent Governour of the ſaid Company. To whom We do hereby give full Power and Authority, to Give and Adminiſter the ſaid Oaths to the ſaid <hi>Deputy Governour</hi> and <hi>Committees</hi> ac<g ref="char:EOLhyphen"/>cordingly. And of Our further eſpecial Grace, certain Know<g ref="char:EOLhyphen"/>ledge, and meer Motion,<note n="*" place="margin">That all Acts done by and to the late Compa<g ref="char:EOLhyphen"/>ny, ſince the <hi>24</hi> of <hi>March,—93.</hi> be ratified and confirmed.</note> We have ratified and confirmed, and do by theſe preſents <hi>Ratifie and confirm all Acts done by and unto
+<pb n="22" facs="tcp:93789:13"/>the ſaid Governour and Company, or late Governour and Company,</hi> ſince the ſaid 24 day of <hi>March</hi> laſt, by virtue or colour of their ſaid former Charters or any of them, to be as valid and effectual, as if the ſaid Firſt Quarterly Payment of the ſaid Tax had been duly made according to the ſaid Act, and the ſaid former Charters had not been forfeited or made void. And We have alſo given, granted, reſtored, and confirmed, and by theſe preſents for Us, Our Heirs and Succeſſors, do give, grant, reſtore, and confirm unto the Governour and Company of Merchants of <hi>London</hi> Tra<g ref="char:EOLhyphen"/>ding into the <hi>Eaſt-Indies,</hi>
+                     <note place="margin">That all their Plantations, Joynt-Stock, Goods and Chat<g ref="char:EOLhyphen"/>tels, Powers, Priviledges, and all other things be reſto<g ref="char:EOLhyphen"/>red and confir<g ref="char:EOLhyphen"/>med to the ſaid Company; <hi>which were, or might be law<g ref="char:EOLhyphen"/>fully uſed or enjoyed.</hi>
+                     </note> hereby conſtituted and confirmed, and their Succeſſors, all and every the Ports, Iſlands, Plantations, Territories, Caſtles, Forts, Fortifications, Ordnance, Armour, Artillery, Munition, Arms, Guns, Powder, Shot, Victuals, Ma<g ref="char:EOLhyphen"/>gazins, Stores, Ammunition, and Proviſions of War, Ships, Junks, Veſſels, Boats, Joynt-Stock, Manors, Lordſhips, Meſuages, Houſes, Lands, Tenements, Hereditaments, Goods, Wares, Mer<g ref="char:EOLhyphen"/>chandizes, Cattel, Chattels Real and Perſonal, Debts, Dues, Duties, Right of Actions, and Demand in Law, or Equity, Powers, Priviledges, Liberties, Franchiſes, Juriſdictions, Cuſtoms, Rights, Royalties, Immunities and Advantages whatſoever; and all other things, <hi>Which were lawfully held, received, uſed, exerciſed, or enjoyed; or might or ought to have been law<g ref="char:EOLhyphen"/>fully held, received, uſed, exerciſed, or enjoyed</hi> by the ſaid Governour and Company, or late Governour and Company of Merchants of <hi>London</hi> Trading into the <hi>East-Indies,</hi> on or before the ſaid 24 day of <hi>March</hi> now laſt; or at any time ſince, by force or virtue of any Grants, Charters, or Letters Patents whatſoever, heretofore granted unto them, or mentioned to be granted or confirmed to them, by any of Our late Royal Predeceſſors, Kings or Queens of <hi>England,</hi> by any Style or Title of Incorporation whatſoever, or otherwiſe howſoever; and under and ſubject to the ſeveral and reſpective Proviſo's, Limitations, Clauſes and Reſtri<g ref="char:EOLhyphen"/>ctions herein, and in the ſaid former Grants, Charters, and Letters Patents, or any of them, contained.<note n="*" place="margin">To have and to hold the ſaid Powers, <hi>&amp;c.</hi> in ſuch manner, <hi>as they might or ought lawful<g ref="char:EOLhyphen"/>ly to have held and en<g ref="char:EOLhyphen"/>joyed the ſame,</hi> as if the ſaid Powers were at large recited.</note>
+                     <hi>To Have, Hold, <g ref="char:V">Ʋ</g>ſe, Exerciſe, and Enjoy</hi> the ſaid Ports, Iſlands, Plantations, Territo<g ref="char:EOLhyphen"/>ries, Caſtles, Powers, Priviledges, and all and ſingular other the Premiſſes herein before mentioned; and intended to be hereby granted and reſtored, and every of them, unto the ſaid Gover<g ref="char:EOLhyphen"/>nour and Company of Merchants of <hi>London</hi> Trading into the <hi>Eaſt-Indies</hi> and their Succeſſors; in ſuch and the ſame manner, and to and for ſuch and the ſame intents and purpoſes in all things, as the ſaid Governour and Company, or late Governour and Com<g ref="char:EOLhyphen"/>pany
+<pb n="23" facs="tcp:93789:13"/>of Merchants of <hi>London,</hi> Trading into the <hi>East-Indies, <hi>might or ought lawfully to have held, uſed, exerciſed, or enjoyed the ſame,</hi>
+                     </hi> on, or at any time before the ſaid 24 day of <hi>March</hi> now laſt paſt; <hi>As if the ſame Powers, Priviledges, and Immunities, and other the premiſſes were hereby particularly granted, and the Letters Patents concerning the ſame at large recited:</hi> Under and ſubject nevertheleſs to the Proviſo's, Reſtrictions, and Limi<g ref="char:EOLhyphen"/>tations contained in theſe Preſents, and in the former Charters, to the ſaid Company.<note n="*" place="margin">Provided, that if the ſaid Company do not ſubmit, and con<g ref="char:EOLhyphen"/>form to ſuch al<g ref="char:EOLhyphen"/>terations, re<g ref="char:EOLhyphen"/>ſtrictions, and qualifications as the King ſhall make before the <hi>29. Sept.</hi> next, it ſhall be law<g ref="char:EOLhyphen"/>ful for His Ma<g ref="char:EOLhyphen"/>jeſty to revoke this Charter.</note>
+                     <hi>Provided</hi> alwayes, and upon condition nevertheleſs, and Our Expreſs Will and Meaning is, That if the ſai<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Governour and Company of Merchants of <hi>London,</hi> Tra<g ref="char:EOLhyphen"/>ding into the <hi>Eaſt-Indies,</hi> and their Succeſſors, <hi>do not accept of;</hi> and from time to time, and at all times hereafter, Act according to, and put in due and effectual Execution, and <hi>Submit and Conform in all things unto ſuch Orders, Directions, Ad<g ref="char:EOLhyphen"/>ditions, Alterations, Reſtrictions, and Qualifications rela<g ref="char:EOLhyphen"/>ting to the Conſtitution, Continuance, Determination,</hi> Rights, Powers, or Priviledges of the ſaid Company, or the Government thereof; or of the ſaid Governour and Company: or the Encouragement, Management, Regulation, or Advancement of Trade; or of the preſent or future Joint-Stock of the ſaid Company: Or concerning any future Subſcriptions, to be made by way of Increaſe or Addition to the Joint-Stock; Or for Aſcer<g ref="char:EOLhyphen"/>taining the true Values of the ſaid Joint-Stock, at and during the times of any ſuch future Subſcriptions; which, and as We, Our Heirs or Succeſſors, by the Advice of Our or Their Privy Council, ſhall from time to time, <hi>at any time before the</hi> 29 <hi>day of</hi> Septem<g ref="char:EOLhyphen"/>ber, <hi>which ſhall be in the year</hi> 1694, think fit to make, inſert, limit, direct, appoint, or expreſs, in or by any further or other Charter, Letters Patents, or other Writing or Inſtrument, under Our or Their Great Seal of <hi>England,</hi> Then, and in each and every of the Caſes aforeſaid, it ſhall and may be lawful, to and for Us, Our Heirs, and Succeſſors, by Letters Patents, under Our or Their Great Seal of <hi>England, To determin, revoke, and make void theſe Preſents,</hi> and the Grant hereby made: And from and immediately after the Paſſing of ſuch Letters Patents of Revoca<g ref="char:EOLhyphen"/>tion or Determination under the Great Seal of <hi>England,</hi> theſe Preſents, and all the Powers, Priviledges, Grants, and other things herein contained, <hi>ſhall ceaſe, determin, and be abſolutely void,</hi> to all intents and purpoſes, any thing to the contrary notwith<g ref="char:EOLhyphen"/>ſtanding. <hi>And</hi> further, We have given, granted, and reſtored, and by theſe Preſents, for Us, Our Heirs and Succeſſors, do
+<pb facs="tcp:93789:14"/>give, grant, and<note n="*" place="margin">That the ſaid Companies Debts be re<g ref="char:EOLhyphen"/>ſtored to them.</note> reſtore unto the ſaid Governour and Company or late Governour and Company, and their Succeſſours, all and every ſuch <hi>Debts, Summs of Money, Duties, and Demands whatſo<g ref="char:EOLhyphen"/>ever,</hi> in Law or Equity, which to the ſaid Governour and Com<g ref="char:EOLhyphen"/>pany, or late Governour and Company, were grown due or pay<g ref="char:EOLhyphen"/>able, at any time before or on the 24 day of <hi>March</hi> now laſt paſt; or which are ſince grown due or payable, or ſhall hereafter grow due or payable by any perſon or perſons whatſoever; as well Our Natural-Born-Subjects, as Aliens and Strangers. <hi>Giving, and by theſe Preſents Granting</hi> unto the ſaid Governour and Company, and their Succeſſors, full Power and Authority, to ask,<note n="*" place="margin">With a Power to ſue for, and recover the ſame.</note> ſue for, and recover the ſame by all lawful ways and means whatſoever; either in the Name of Us, Our Heirs or Succeſſors; or in the Name of the ſaid Company, or otherwiſe; as Law or Equity ſhall require or admit of, and to retain the ſame to their own uſe and benefit, upon under, and ſubject to, the Truſts, Intents and Purpoſes herein after mentioned, as fully and amply to all intents and purpoſes as if the ſaid firſt Quarterly payment of the ſaid Tax had been duely and regu<g ref="char:EOLhyphen"/>larly made into our Exchequer according to the ſaid late <hi>Act of Parliament</hi> in that behalf.<note n="*" place="margin">Provided, that all the Manors, Lands, Goods, and Eſtate of the ſaid Compa<g ref="char:EOLhyphen"/>ny ſhall be, and are made ſub<g ref="char:EOLhyphen"/>ject and charge<g ref="char:EOLhyphen"/>able with all their Debts to any perſons, as well Subjects as Strangers.</note>
+                     <hi>Provided</hi> always, and it is intended and agreed, and Our Expreſs Will and Pleaſure is, That the ſaid Governour and Company hereby conſtituted, and their Succeſſors, and all the Mannors, Lands, Tenements, Goods, Wares, Mer<g ref="char:EOLhyphen"/>chandizes, Chattels real, Chattels perſonal, and other the Pre<g ref="char:EOLhyphen"/>miſſes hereby granted and confirmed, or mentioned to be granted and confirmed, and every of them, and every part and parcel there<g ref="char:EOLhyphen"/>of ſhall be and are hereby made ſubject and lyable to, and charged and chargeable with, all and every ſuch Debts, and Sums of Money, Duties, and Demands whatſoever, <hi>in Law or Equity,</hi> which the ſaid Governour and Company, or late Governour and Company do now owe, or are indebted or ſubject or liable to, or which at any time before or on the ſaid 24th. day of <hi>March</hi> now laſt paſt, or ſince, did owe, or were indebted, or ſubject or liable to any perſon or perſons whatſoever, as well Our Natural Born Subjects and perſons Endenized or Naturallized, as Aliens and Strangers, and that the ſame ſhall and may be Sued for and recovered in ſuch and the like manner to all intents and purpoſes, as if the ſaid firſt Quarterly Payment of the ſaid Tax had been duly and regularly made into our Exchequer, according to the ſaid late <hi>Act of Parliament</hi> in that behalf, and as if the ſaid former Charters had not been forfeited or made void. <hi>And</hi> our further Will and Pleaſure is, and we do by theſe preſents for us Our Heirs and Succeſſours Grant unto the ſaid
+<pb n="25" facs="tcp:93789:14"/>
+                     <hi>Governour and Company, or late Governour and Company of Mer<g ref="char:EOLhyphen"/>chants of</hi> London <hi>Trading into the</hi> Eaſt-Indies and their Succeſſors, That theſe Our Letters Patents, and all and ſingular the Powers, Clauſes and Grants therein contained, ſhall be and continue ſuffici<g ref="char:EOLhyphen"/>ent and available in Law, and ſhall be conſtrued and taken as well to the meaning and intent, as to the general words of the ſame <hi>moſt beneficially and for the beſt advantage</hi> of the ſaid Governour and Com<g ref="char:EOLhyphen"/>pany or late Governour and Company and their Succeſſors, under and ſubject to the Proviſo's, Reſtrictions and Limitations herein, and in the ſaid former <hi>Letters Patents</hi> contained; <hi>Notwithſtand<g ref="char:EOLhyphen"/>ing</hi> the not mentioning or not true reciting of any former Grants, Charters or Letters Patents heretofore Granted to the ſaid late Go<g ref="char:EOLhyphen"/>vernour and Company, or any of their Predeceſſors by any of the late <hi>Kings or Queens of</hi> England, or any other perſon or perſons whatſoever; or the not mentioning or reciting of any Caſtles, Forts, Plantations, Lands, Powers, Liberties, Priviledges, Ad<g ref="char:EOLhyphen"/>vantages, or other matters or things in the ſaid Grants or Letters Patents, or any of them; granted, or mentioned to be granted or confirmed.<note n="*" place="margin">Provided, if the ſaid Compa<g ref="char:EOLhyphen"/>ny do not on the <hi>25 Decemb.</hi> next, Pay <hi>9300 L.</hi> into th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> 
+                        <hi>Exchequer,</hi> for the laſt Quarterly Pay<g ref="char:EOLhyphen"/>ment of their Tax, t is Ch<gap reason="illegible" resp="#MURP" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>r<g ref="char:EOLhyphen"/>ter ſhallbe void.</note>
+                     <hi>Provided</hi> alwayes, and theſe Preſents are and ſhall be <hi>upon this Condition,</hi> That if the ſaid Governour and Com<g ref="char:EOLhyphen"/>pany hereby Conſtituted ſhall not Pay into the Receipt of Our Exchequer at <hi>Weſtminster,</hi> for Our Uſe, <hi>upon the</hi> 25 <hi>day of</hi> De<g ref="char:EOLhyphen"/>cember <hi>next</hi> enſuing the Date hereof, the full Summ of Nine Thouſand Three Hundred Pounds, of good and lawful Money of <hi>England;</hi> in lieu and ſatisfaction for the laſt of the Four Quar<g ref="char:EOLhyphen"/>terly Payments appointed to be paid unto Us by the late <hi>East-India</hi> Company, by virtue of the <hi>Act of Parliament</hi> herein before-mentioned, for Charging of Joint-Stocks: <hi>Then, and from thence-forth,</hi> theſe Preſents, and all things herein Contained, ſhall ceaſe, determin, and be <hi>utterly void,</hi> to all intents and purpoſes, any thing herein contained to the Contrary notwithſtanding. <hi>In Witneſs</hi> whereof, We have cauſed theſe Our <hi>Letters</hi> to be made <hi>Patents. <hi>Witneſs</hi>
+                     </hi> Our Selves at <hi>Weſtminſter,</hi> the Seventh day of <hi>October,</hi> in the Fifth Year of Our Reign.</p>
+                  <closer>
+                     <signed>Pigott.</signed>
+                  </closer>
+                  <byline>By Writ of Privy Seal.</byline>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
